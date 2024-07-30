@@ -47,3 +47,10 @@ def wholesentence(sentence):
 
 
 print(wholesentence(text_input))
+
+exitCode = input('\n' + 'Press any key + enter to exit' + '\n')
+exit(exitCode)
+
+def exit(exitCode):
+    if exitCode:
+        return None
