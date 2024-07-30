@@ -55,16 +55,15 @@ print(''' __                             .__   __   .__
 |__|_ \ \___  > |__|   |__|_|  /|__| |__|  |__||___|  / \___  >
      \/     \/               \/                     \/      \/ ''')
 
-
-
+vowels = ['a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y']
+punctuation = ['!', '?', '.', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '#', '/', ':', ';',
+                    '<', '=', '>', '"', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~']
+full_stop_punc = punctuation[:3]
+nums = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 
 
 
 def encryption(text_input):
-    vowels = ['a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y']
-    punctuation = ['!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';',
-                    '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~']
-    nums = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
     broken_list = []
     consonants = []
     popList = []
@@ -99,6 +98,7 @@ def encryption(text_input):
                 popList.append(x)   # adds index of og punctuation to popList, to be removed outside of loop
         for y in popList:
             cut_list.pop(y) # pops og indexes outside of loop
+        cut_list = [item.lower() for item in cut_list]
         final_word = "".join(cut_list) # joins list into string and returns
     if not consonants:
         broken_list.append('yay')
@@ -109,6 +109,7 @@ def encryption(text_input):
                 popList.append(x)   # adds index of og punctuation to popList, to be removed outside of loop
         for y in popList:
             broken_list.pop(y) # pops og indexes outside of loop
+        broken_list = [item.lower() for item in broken_list]
         final_word = "".join(broken_list)
     return final_word
 
@@ -117,13 +118,27 @@ def wholesentence(sentence):
     words = sentence.split()
     for x in range(len(words)):
         final_sentence.append(encryption(words[x]))
+    final_sentence[0] = final_sentence[0].capitalize() # capitalizes first letter of first word
+
+    for x in range(1, len(final_sentence)-1): # corrects capitalization
+        for letter in final_sentence[x]:
+            if letter in full_stop_punc:
+                final_sentence[x+1] = final_sentence[x+1].capitalize()
+
+
+
+
+
+
+
+
     joined_sentence = " ".join(final_sentence)
     return joined_sentence
 
 
 def loopStart(text_input):
     print('\n' + '\n' + '\n' + '\n' + 'Encrypted Result:' + '\n' + wholesentence(text_input) + '\n' + '\n')
-    exitCode = input(str('\n' + 'Enter t to translate another sentence. Enter f to exit.' + '\n'))
+    exitCode = input(str('\n' + 'Enter t to translate another sentence. Enter any other key to exit.' + '\n'))
     return exitCode
 
 
