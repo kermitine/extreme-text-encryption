@@ -155,7 +155,6 @@ exitCode1 = str(loopStart(text_input))
 
 while True:
     if exitCode1 in ['t', 'T']:
-        print(exitCode1)
         text_input = input(str('\n' + 'Enter text for encryption:' + ' \n'))
         exitCode1 = loopStart(text_input)
     elif exitCode1 is None:
