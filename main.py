@@ -1,4 +1,4 @@
-version = 2
+version = str(2.1)
 
 print('''                                                                                                       
                                                     ###%%%#*                                           
@@ -59,9 +59,12 @@ text_input = input('\n' + ' Enter text for encryption:' + ' \n')
 
 
 def encryption(text_input):
-    vowels = ['a', 'e', 'i', 'o', 'u']
+    vowels = ['a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y']
+    punctuation = [['!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';',
+                    '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~']]
     broken_list = []
     consonants = []
+    editPunc = ''
     current_string = ''
     final_word = ''
     for x in text_input: # break up word into list
@@ -88,6 +91,11 @@ def encryption(text_input):
         broken_list.append('y')
         broken_list.append('a')
         broken_list.append('y')
+        for x in range(len(broken_list)):
+             if broken_list[x] in punctuation:
+                editPunc = broken_list[x]
+                broken_list.pop(x)
+                broken_list.append(editPunc)
         final_word = "".join(broken_list)
     return final_word
 

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea7717f4-3a96-4dac-b7e0-58c9dbcf0195" name="Changes" comment="V2 added ascii art&#10;&#10;No edge case detection">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kermitine&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kermitine/extreme-text-encryption.git&quot;,
+    &quot;accountId&quot;: &quot;24a6784e-a75c-4b34-a3f4-75a20e28ed8a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2jxI5XpQxJPXVAXlG5kkatIgPw0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea7717f4-3a96-4dac-b7e0-58c9dbcf0195" name="Changes" comment="" />
+      <created>1722322118523</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722322118523</updated>
+    </task>
+    <task id="LOCAL-00001" summary="V0.1">
+      <option name="closed" value="true" />
+      <created>1722323623350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722323623350</updated>
+    </task>
+    <task id="LOCAL-00002" summary="V0.2">
+      <option name="closed" value="true" />
+      <created>1722325096933</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722325096933</updated>
+    </task>
+    <task id="LOCAL-00003" summary="V0.3">
+      <option name="closed" value="true" />
+      <created>1722326376200</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722326376200</updated>
+    </task>
+    <task id="LOCAL-00004" summary="V1.0 No edge case detection">
+      <option name="closed" value="true" />
+      <created>1722326730609</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722326730609</updated>
+    </task>
+    <task id="LOCAL-00005" summary="V1.0 No edge case detection">
+      <option name="closed" value="true" />
+      <created>1722326889754</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722326889754</updated>
+    </task>
+    <task id="LOCAL-00006" summary="V1.1 fixed problem with program instantly exiting&#10;&#10;No edge case detection">
+      <option name="closed" value="true" />
+      <created>1722327421009</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722327421009</updated>
+    </task>
+    <task id="LOCAL-00007" summary="V2 added ascii art&#10;&#10;No edge case detection">
+      <option name="closed" value="true" />
+      <created>1722328970494</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722328970494</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="V0.1" />
+    <MESSAGE value="V0.2" />
+    <MESSAGE value="V0.3" />
+    <MESSAGE value="V1.0 No edge case detection" />
+    <MESSAGE value="V1.1 fixed problem with program instantly exiting&#10;&#10;No edge case detection" />
+    <MESSAGE value="V2 added ascii art&#10;&#10;No edge case detection" />
+    <option name="LAST_COMMIT_MESSAGE" value="V2 added ascii art&#10;&#10;No edge case detection" />
+  </component>
+</project>
