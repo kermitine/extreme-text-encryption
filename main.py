@@ -1,4 +1,4 @@
-version = str(3.0)
+version = str(3.1)
 
 print('''                                                                                                       
                                                     ###%%%#*                                           
@@ -55,7 +55,7 @@ print(''' __                             .__   __   .__
 
 
 print('Encryptor V' + version)
-text_input = input('\n' + 'Enter text for encryption:' + ' \n')
+text_input = input(str('\n' + 'Enter text for encryption:' + ' \n'))
 
 
 
@@ -63,6 +63,7 @@ def encryption(text_input):
     vowels = ['a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y']
     punctuation = ['!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';',
                     '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~']
+    nums = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
     broken_list = []
     consonants = []
     popList = []
@@ -76,9 +77,12 @@ def encryption(text_input):
 
 
     for x in broken_list: # extract consonants
-        if x not in vowels:
+        if x in nums: # detects numbers and leaves them unchanged
+            final_word = "".join(broken_list)
+            return final_word
+        if x not in vowels: # add all sequential consonants to a list
             consonants.append(x)
-        if x in vowels:
+        if x in vowels: # stop once first vowel is reached
             break
 
     if consonants:
@@ -107,6 +111,9 @@ def encryption(text_input):
                 popList.append(x)   # pops og indexes outside of loop
         for y in popList:
             broken_list.pop(y)
+        for x in range(len(broken_list)):
+            broken_list[x].lower()
+        print(broken_list)
         final_word = "".join(broken_list)
     return final_word
 
