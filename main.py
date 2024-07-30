@@ -1,6 +1,6 @@
 import time
 
-version = str(4.0)
+version = str(4.1)
 
 print('''                                                                                                       
                                                     ###%%%#*                                           
@@ -61,12 +61,16 @@ punctuation = ['!', '?', '.', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', 
 full_stop_punc = punctuation[:3]
 nums = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 
+print('Encryptor V' + version)
+
+text_input = input(str('\n' + 'Enter text for encryption:' + ' \n'))
 
 
 def encryption(text_input):
     broken_list = []
     consonants = []
     popList = []
+    final_word = ''
     editPunc = ''
     current_string = ''
     final_word = ''
@@ -144,17 +148,24 @@ def loopStart(text_input):
 
 
 
-print('Encryptor V' + version)
-text_input = input(str('\n' + 'Enter text for encryption:' + ' \n'))
 
 
+exitCode1 = str(loopStart(text_input))
 
-if loopStart(text_input) in ['t', 'T']:
-    text_input = input(str('\n' + 'Enter text for encryption:' + ' \n'))
-    loopStart(text_input)
-else:
-    print('Program Terminating...')
-    time.sleep(1.5)
+
+while True:
+    if exitCode1 in ['t', 'T']:
+        print(exitCode1)
+        text_input = input(str('\n' + 'Enter text for encryption:' + ' \n'))
+        exitCode1 = loopStart(text_input)
+    elif exitCode1 is None:
+        print('Program Terminating...')
+        time.sleep(1.5)
+        break
+    else:
+        print('Program Terminating...')
+        time.sleep(1.5)
+        break
 
 
 
