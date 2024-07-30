@@ -1,4 +1,4 @@
-version = str(2.1)
+version = str(3)
 
 print('''                                                                                                       
                                                     ###%%%#*                                           
@@ -54,16 +54,17 @@ print(''' __                             .__   __   .__
      \/     \/               \/                     \/      \/ ''')
 
 
-text_input = input('\n' + ' Enter text for encryption:' + ' \n')
+text_input = input('\n' + 'Enter text for encryption:' + ' \n')
 
 
 
 def encryption(text_input):
     vowels = ['a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y']
-    punctuation = [['!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';',
-                    '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~']]
+    punctuation = ['!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';',
+                    '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~']
     broken_list = []
     consonants = []
+    popList = []
     editPunc = ''
     current_string = ''
     final_word = ''
@@ -86,16 +87,25 @@ def encryption(text_input):
             cut_list.append(current_string)
         cut_list.append('a')
         cut_list.append('y')
+        for x in range(len(cut_list)): # moves punctuation to the back of word, but keeps og punc to maintain indexes
+            if cut_list[x] in punctuation:
+                editPunc = cut_list[x]
+                cut_list.append(editPunc)
+                popList.append(x)   # pops og indexes outside of loop
+        for y in popList:
+            cut_list.pop(y)
         final_word = "".join(cut_list)
     if not consonants:
         broken_list.append('y')
         broken_list.append('a')
         broken_list.append('y')
-        for x in range(len(broken_list)):
-             if broken_list[x] in punctuation:
+        for x in range(len(broken_list)): # moves punctuation to the back of word, but keeps og punc to maintain indexes
+            if broken_list[x] in punctuation:
                 editPunc = broken_list[x]
-                broken_list.pop(x)
                 broken_list.append(editPunc)
+                popList.append(x)   # pops og indexes outside of loop
+        for y in popList:
+            broken_list.pop(y)
         final_word = "".join(broken_list)
     return final_word
 
@@ -108,9 +118,9 @@ def wholesentence(sentence):
     return joined_sentence
 
 
-print('\n' + '\n' + '\n' + '\n' + 'Encrypted Result: ' + wholesentence(text_input))
+print('\n' + '\n' + '\n' + '\n' + 'Encrypted Result:' + '\n' + wholesentence(text_input) + '\n' + '\n')
 
-exitCode = input('\n' + 'Press any key + enter to exit' + '\n')
+exitCode = input('\n' + 'Press enter to exit window' + '\n')
 exit(exitCode)
 
 def exit(exitCode):
