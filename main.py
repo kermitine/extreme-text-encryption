@@ -1,4 +1,4 @@
-version = str(3)
+version = str(3.0)
 
 print('''                                                                                                       
                                                     ###%%%#*                                           
@@ -54,6 +54,7 @@ print(''' __                             .__   __   .__
      \/     \/               \/                     \/      \/ ''')
 
 
+print('Encryptor V' + version)
 text_input = input('\n' + 'Enter text for encryption:' + ' \n')
 
 
