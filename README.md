@@ -2,4 +2,4 @@ converts text to piglatin
 
 capable of processing multiple words/sentences
 
-NOT compatible with punctuation
+NOT currently compatible with punctuation
