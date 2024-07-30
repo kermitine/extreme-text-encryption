@@ -1,6 +1,6 @@
 import time
 
-version = str(3.2)
+version = str(4)
 
 print('''                                                                                                       
                                                     ###%%%#*                                           
@@ -146,6 +146,7 @@ def loopStart(text_input):
 
 print('Encryptor V' + version)
 text_input = input(str('\n' + 'Enter text for encryption:' + ' \n'))
+
 
 
 if loopStart(text_input) in ['t', 'T']:
