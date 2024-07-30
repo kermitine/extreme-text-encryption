@@ -1,4 +1,4 @@
-version = 0.1
+version = 0.3
 
 text_input = input('\n' + ' Enter text!' + ' \n')
 
@@ -9,6 +9,7 @@ def encryption(text_input):
     broken_list = []
     consonants = []
     current_string = ''
+    final_word = ''
     for x in text_input: # break up word into list
         broken_list.append(x)
 
@@ -28,9 +29,27 @@ def encryption(text_input):
             cut_list.append(current_string)
         cut_list.append('a')
         cut_list.append('y')
+        final_word = "".join(cut_list)
+    if not consonants:
+        broken_list.append('y')
+        broken_list.append('a')
+        broken_list.append('y')
+        final_word = "".join(broken_list)
+    return final_word
+
+def wholesentence(sentence):
+    final_sentence = []
+    words = sentence.split()
+    for x in range(len(words)):
+        final_sentence.append(encryption(words[x]))
+        ''.join(final_sentence)
+    ''.join(final_sentence)
+    print(final_sentence)
 
 
 
 
 
-encryption(text_input)
+
+
+wholesentence(text_input)
