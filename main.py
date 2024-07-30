@@ -42,14 +42,8 @@ def wholesentence(sentence):
     words = sentence.split()
     for x in range(len(words)):
         final_sentence.append(encryption(words[x]))
-        ''.join(final_sentence)
-    ''.join(final_sentence)
-    print(final_sentence)
+    joined_sentence = " ".join(final_sentence)
+    return joined_sentence
 
 
-
-
-
-
-
-wholesentence(text_input)
+print(wholesentence(text_input))
