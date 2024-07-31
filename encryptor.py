@@ -130,12 +130,6 @@ def wholesentence(sentence):
                 final_sentence[x+1] = final_sentence[x+1].capitalize()
 
 
-
-
-
-
-
-
     joined_sentence = " ".join(final_sentence)
     return joined_sentence
 
