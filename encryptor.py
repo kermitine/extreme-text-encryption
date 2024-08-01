@@ -1,6 +1,6 @@
 import time
 
-version = str(4.1)
+version = str('4.0.1')
 
 print('''                                                                                                       
                                                     ###%%%#*                                           
