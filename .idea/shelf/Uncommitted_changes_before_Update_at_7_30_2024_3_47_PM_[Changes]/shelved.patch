@@ -1,0 +1,12 @@
+Index: README.md
+===================================================================
+diff --git a/README.md b/README.md
+deleted file mode 100644
+--- a/README.md	(revision 7b931e0f723f44ae326e68e1cef6246aa5701c93)
++++ /dev/null	(revision 7b931e0f723f44ae326e68e1cef6246aa5701c93)
+@@ -1,5 +0,0 @@
+-converts text to special ciphertext
+-
+-capable of processing multiple words/sentences
+-
+-compatible with punctuation

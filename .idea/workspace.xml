@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea7717f4-3a96-4dac-b7e0-58c9dbcf0195" name="Changes" comment="V4.0.1&#10;-updated versioning to be in line with SemVer" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kermitine&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kermitine/extreme-text-encryption.git&quot;,
+    &quot;accountId&quot;: &quot;24a6784e-a75c-4b34-a3f4-75a20e28ed8a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2jxI5XpQxJPXVAXlG5kkatIgPw0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.decryptor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.encryptor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ayrik Nabirahni/PycharmProjects/extreme-text-encryption&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea7717f4-3a96-4dac-b7e0-58c9dbcf0195" name="Changes" comment="" />
+      <created>1722322118523</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722322118523</updated>
+    </task>
+    <task id="LOCAL-00001" summary="V0.1">
+      <option name="closed" value="true" />
+      <created>1722323623350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722323623350</updated>
+    </task>
+    <task id="LOCAL-00002" summary="V0.2">
+      <option name="closed" value="true" />
+      <created>1722325096933</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722325096933</updated>
+    </task>
+    <task id="LOCAL-00003" summary="V0.3">
+      <option name="closed" value="true" />
+      <created>1722326376200</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722326376200</updated>
+    </task>
+    <task id="LOCAL-00004" summary="V1.0 No edge case detection">
+      <option name="closed" value="true" />
+      <created>1722326730609</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722326730609</updated>
+    </task>
+    <task id="LOCAL-00005" summary="V1.0 No edge case detection">
+      <option name="closed" value="true" />
+      <created>1722326889754</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722326889754</updated>
+    </task>
+    <task id="LOCAL-00006" summary="V1.1 fixed problem with program instantly exiting&#10;&#10;No edge case detection">
+      <option name="closed" value="true" />
+      <created>1722327421009</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722327421009</updated>
+    </task>
+    <task id="LOCAL-00007" summary="V2 added ascii art&#10;&#10;No edge case detection">
+      <option name="closed" value="true" />
+      <created>1722328970494</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722328970494</updated>
+    </task>
+    <task id="LOCAL-00008" summary="V2.1&#10;added Y to vowels, which was causing some errors.&#10;added capital vowels, which was causing errors">
+      <option name="closed" value="true" />
+      <created>1722331386842</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722331386842</updated>
+    </task>
+    <task id="LOCAL-00009" summary="V3.0&#10;added Y to vowels, which was causing some errors.&#10;added capital vowels, which was causing errors&#10;added support for punctuation">
+      <option name="closed" value="true" />
+      <created>1722332272107</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722332272107</updated>
+    </task>
+    <task id="LOCAL-00010" summary="V3.0&#10;added Y to vowels, which was causing some errors.&#10;added capital vowels, which was causing errors&#10;added support for punctuation">
+      <option name="closed" value="true" />
+      <created>1722332658055</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722332658055</updated>
+    </task>
+    <task id="LOCAL-00011" summary="V3.1&#10;added support for numbers">
+      <option name="closed" value="true" />
+      <created>1722367378719</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722367378719</updated>
+    </task>
+    <task id="LOCAL-00012" summary="V3.2&#10;added support for numbers&#10;added additional comments&#10;added functionality to encrypt another sentence without shutting and reopening the program">
+      <option name="closed" value="true" />
+      <created>1722369271453</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722369271453</updated>
+    </task>
+    <task id="LOCAL-00013" summary="V3.5&#10;added support for numbers&#10;added additional comments&#10;added functionality to encrypt another sentence without shutting and reopening the program&#10;added functionality for capitalization correction (WIP)">
+      <option name="closed" value="true" />
+      <created>1722370979428</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722370979428</updated>
+    </task>
+    <task id="LOCAL-00014" summary="V4&#10;added support for numbers&#10;added additional comments&#10;added functionality to encrypt another sentence without shutting and reopening the program&#10;added functionality for capitalization correction (WIP)&#10;fixed other problems">
+      <option name="closed" value="true" />
+      <created>1722371498276</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1722371498276</updated>
+    </task>
+    <task id="LOCAL-00015" summary="V4&#10;added support for numbers&#10;added additional comments&#10;added functionality to encrypt another sentence without shutting and reopening the program&#10;added functionality for capitalization correction (WIP)&#10;fixed other problems">
+      <option name="closed" value="true" />
+      <created>1722371580518</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1722371580518</updated>
+    </task>
+    <task id="LOCAL-00016" summary="V4.1&#10;fixed a problem with the program crashing after trying to enter a sentence a 3rd time">
+      <option name="closed" value="true" />
+      <created>1722377354336</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722377354336</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1722377430500</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1722377430500</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1722379633259</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1722379633259</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1722412031845</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1722412031845</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1722412046466</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1722412046466</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1722419113443</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1722419113443</updated>
+    </task>
+    <task id="LOCAL-00022" summary="V4.0.1&#10;-updated versioning to be in line with SemVer">
+      <option name="closed" value="true" />
+      <created>1722482240241</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1722482240241</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="V0.1" />
+    <MESSAGE value="V0.2" />
+    <MESSAGE value="V0.3" />
+    <MESSAGE value="V1.0 No edge case detection" />
+    <MESSAGE value="V1.1 fixed problem with program instantly exiting&#10;&#10;No edge case detection" />
+    <MESSAGE value="V2 added ascii art&#10;&#10;No edge case detection" />
+    <MESSAGE value="V2.1&#10;added Y to vowels, which was causing some errors.&#10;added capital vowels, which was causing errors" />
+    <MESSAGE value="V3.0&#10;added Y to vowels, which was causing some errors.&#10;added capital vowels, which was causing errors&#10;added support for punctuation" />
+    <MESSAGE value="V3.1&#10;added support for numbers" />
+    <MESSAGE value="V3.2&#10;added support for numbers&#10;added additional comments&#10;added functionality to encrypt another sentence without shutting and reopening the program" />
+    <MESSAGE value="V3.5&#10;added support for numbers&#10;added additional comments&#10;added functionality to encrypt another sentence without shutting and reopening the program&#10;added functionality for capitalization correction (WIP)" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <MESSAGE value="V4&#10;added support for numbers&#10;added additional comments&#10;added functionality to encrypt another sentence without shutting and reopening the program&#10;added functionality for capitalization correction (WIP)&#10;fixed other problems" />
+    <MESSAGE value="V4.1&#10;fixed a problem with the program crashing after trying to enter a sentence a 3rd time" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="V4.0.1&#10;-updated versioning to be in line with SemVer" />
+    <option name="LAST_COMMIT_MESSAGE" value="V4.0.1&#10;-updated versioning to be in line with SemVer" />
+  </component>
+</project>
