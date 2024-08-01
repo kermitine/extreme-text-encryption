@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea7717f4-3a96-4dac-b7e0-58c9dbcf0195" name="Changes" comment="V4.0.1&#10;-updated versioning to be in line with SemVer" />
+    <list default="true" id="ea7717f4-3a96-4dac-b7e0-58c9dbcf0195" name="Changes" comment="V4.1.0&#10;-brought up to parity with extreme-text-decryption&#10;-ported over reworked punctuation system, increasing versatility, and reliability&#10;-split variables into different files, increasing readability" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -246,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722482240241</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="V4.1.0&#10;-brought up to parity with extreme-text-decryption&#10;-ported over reworked punctuation system, increasing versatility, and reliability&#10;-split variables into different files, increasing readability">
+      <option name="closed" value="true" />
+      <created>1722502564778</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1722502564778</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +285,7 @@
     <MESSAGE value="V4.1&#10;fixed a problem with the program crashing after trying to enter a sentence a 3rd time" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="V4.0.1&#10;-updated versioning to be in line with SemVer" />
-    <option name="LAST_COMMIT_MESSAGE" value="V4.0.1&#10;-updated versioning to be in line with SemVer" />
+    <MESSAGE value="V4.1.0&#10;-brought up to parity with extreme-text-decryption&#10;-ported over reworked punctuation system, increasing versatility, and reliability&#10;-split variables into different files, increasing readability" />
+    <option name="LAST_COMMIT_MESSAGE" value="V4.1.0&#10;-brought up to parity with extreme-text-decryption&#10;-ported over reworked punctuation system, increasing versatility, and reliability&#10;-split variables into different files, increasing readability" />
   </component>
 </project>
