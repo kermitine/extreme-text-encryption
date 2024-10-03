@@ -3,7 +3,7 @@ DEPRECATED - ALL FURTHER UPDATES will be to the Glick suite (https://github.com/
 
 
 
-apart of kermitine's "extreme" encryption suite
+apart of kermitine's "xtreem" encryption suite
 
 converts english into ciphertext
 
